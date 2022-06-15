@@ -187,14 +187,14 @@ id: 'programdt'
   }, {
  quickReplyButton: {
 displayText: 'Baitul Qur’an',
-id: 'd2'
+id: 'baitulquran'
  }
   }
  ,
 {
  quickReplyButton: {
 displayText: 'DKM Masjid Daarut Tauhiid',
-id: 'd3'
+id: 'dkm_masjid'
  }
   }]
   
