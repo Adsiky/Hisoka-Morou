@@ -1,7 +1,11 @@
-require('./config')
+////// WHATSAPP BOT 100-400K
+///// WhatsApp : 085215319934
+
+/////////////////////////////
+/////////////////////////////
+
 
 ////// KONSTAN MODULE
-
 let { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let util = require('util')
@@ -151,6 +155,8 @@ ikyy.ev.emit('messages.upsert', msg)
 
 ////// MENU HELP BUTTON 1 PAKET
 
+//1.________________________________
+
 case "help": case "menu":
 
 {
@@ -172,7 +178,9 @@ displayText: 'Website Info',
 url: 'https://linktr.ee/InfoDT'
 }
 },  {
+
  quickReplyButton: {
+
 displayText: 'Pendidikan Diniyah Formal (PDF)',
 id: 'programdt'
  }  
@@ -195,6 +203,8 @@ id: 'd3'
 }
   
   break
+
+//2.________________________________
 
 case "programdt":
 
@@ -240,6 +250,9 @@ id: 'lemstra'
   
 }
 break
+
+//3.________________________________
+
 case "pesantren2":
 
 {
@@ -278,6 +291,7 @@ break
 
 //// PROGRAM DT PESANTREN
 //// LIST MESSAGE
+//4.________________________________
 
 case "lemstra":
 {
@@ -302,6 +316,8 @@ Merupakan Layanan Program Lembaga Strategis DT
 - Argo Bisnis
 - Usaha Produktif`,  ` `, `${ucapaWaktu}\n`, `Click Here`, seeections, )
   }
+  
+  //5.________________________________
 
 case "p1": case "pesantren":
   {
@@ -310,10 +326,10 @@ case "p1": case "pesantren":
 {
 title: "  ",
 rows: [
-{title: "1. DKM ", rowId: `a1`, description: ``},
-{title: "2. Baitul Qur'an", rowId: `a2`, description: ``},
-{title: "3. Pusat Kegiatan Belajar Masyarakat", rowId: `a3`, description: ``},
-{title: "4. Pendidikan Diniyah Formal (PDF)", rowId: `a4`, description: ``}
+{title: "1. DKM ", rowId: `dkm`, description: ``},
+{title: "2. Baitul Qur'an", rowId: `baitulquran`, description: ``},
+{title: "3. Pusat Kegiatan Belajar Masyarakat", rowId: `pkbm`, description: ``},
+{title: "4. Pendidikan Diniyah Formal (PDF)", rowId: `diniyahformal`, description: ``}
 ] },]
 ikyy.sendListMsg(m.chat, `*A1.* Pesantren DT
 
@@ -328,6 +344,7 @@ Merupakan Layanan *Program Kepesantrenan Daarut Tauhiid* :
   break
  
 ////PROGRAM DT PENDIDIKAN
+//6.________________________________
 
 case "p2": case "pendidikan":
   {
@@ -357,6 +374,7 @@ Layanan pendidikan mulai dari Playgroup/TK hingga STAI`, ` `,`${ucapaWaktu}\n`,`
   break
 
 ///ISI LIST MESSAGE P1 ( PESANTREN )
+//7.________________________________
 
 case "a1":
 {
@@ -380,6 +398,7 @@ case "a4":
 	break
 
 /// ISI LIST MESSAGE P2 ( PENDIDIKAN )
+
 
 case "b1":
 {
@@ -446,6 +465,8 @@ case "b12":
 
 //// ISI BUTON ID PESANTREN2
 
+
+
 case "e1":
 {
 	menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
@@ -492,6 +513,8 @@ case "e3":
 	break
 
 ////// ISI BUTTON ID MENU
+
+
 
 case "d1":
 {
@@ -638,6 +661,152 @@ url: 'https://bit.ly/daftarPDFDT'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_diniyahformal_tiny } , btn)
   break
 	////
+	case "dkm_masjid":
+	  {
+	    menu =`*A1.1. DKM Masjid Daarut Tauhiid*
+
+
+
+📌 *Masjid DT Bandung*
+biolinky.co/masjiddtbandung
+
+▶️ *Instagram*
+https://instagram.com/masjiddtbandung
+
+📞 *No. Kontak*
+081910206060
+08112000480
+
+📌 *Masjid Eco Pesantren DT*
+www.daaruttauhiidvirtual.com
+
+▶️ *Instagram*
+https://instagram.com/masjiddt_ecopesantren
+
+📞 *No. Kontak*
+08112004449
+
+📞 *No. Kontak*
+081380007729
+
+📌 *Masjid DT Batam*`
+btn = [{
+
+ 
+
+ urlButton: {
+displayText: '*Masjid DT Jakarta',
+url: 'http://s.id/InfoMasjidDTJKT'
+} }
+,{
+urlButton: {
+displayText: '*Instagram*',
+url: 'https://instagram.com/masjiddaaruttauhiid.jkt'
+} },
+{
+ quickReplyButton: {
+displayText: 'KBIHU',
+id: 'kbihu'
+  },}]
+  
+  ikyy.send5ButImg(m.chat, menu,` ` , { url: dkm_masjid } , btn)
+
+	  }
+	  break
+
+case 'kbihu':
+{
+menu =`*A1.1.1. KBIHU*
+
+🕋 *Haji dan Umroh Daarut Tauhiid Bandung*
+
+
+📞 *No. Kontak*
+(022)2003780
+
+🕋 *Haji dan Umroh Daarut Tauhiid Jakarta*
+
+
+📞 *No. Kontak*
+081294301616
+`
+btn = [{
+
+ urlButton: {
+displayText: '*Instagram 1*',
+url: 'https://instagram.com/kbihudaaruttauhiid_bdg'
+} }
+,{
+urlButton: {
+displayText: '*Instagram 2*',
+url: 'https://instagram.com/kbihdaaruttauhiid.jkt'
+} },
+{
+ quickReplyButton: {
+displayText: 'back',
+id: 'dkm_masjid'
+  },}]
+  
+  ikyy.send5ButImg(m.chat, menu,` ` , { url: dkm_masjid } , btn)
+}
+break
+////
+case 'daycare':
+{
+menu =`*A3.2. Daycare*
+
+*Hotline Klinik DT*
+0896-2582-8853
+0812-2427-590
+`
+btn = [{
+
+
+
+ urlButton: {
+displayText: '*Instagram*',
+url: 'https://instagram.com/daycaredaaruttauhiid'
+} }
+,
+{
+ quickReplyButton: {
+displayText: 'back',
+id: 'lemstra'
+  },}]
+  
+  ikyy.send5ButImg(m.chat, menu,` ` , { url: klinikdt } , btn)
+	}
+	break
+case 'klinik':
+{
+menu =`*A3.1. Klinik Kesehatan*
+
+- Layanan Dokter Umum & Gigi
+- Layanan Dokter Spesialis Kandungan
+- Layanan Psikolog
+- Layanan Khitan
+
+*Hotline Klinik DT*
+0896-2582-8853
+0812-2427-590
+`
+btn = [{
+
+ urlButton: {
+displayText: '*Instagram*',
+url: 'https://instagram.com/klinik.daaruttauhiid'
+} }
+,
+{
+ quickReplyButton: {
+displayText: 'back',
+id: 'lemstra'
+  },}]
+  
+  ikyy.send5ButImg(m.chat, menu,` ` , { url: klinikdt } , btn)
+}
+break
+////
 	case 'dauroh':
 menu =`*A1.3.2.	Dauroh Qolbiyah (DQ)*
 
@@ -659,7 +828,8 @@ btn = [{
  urlButton: {
 displayText: 'Info Link',
 url: 'https://bit.ly/daftarDQDT'
-},  
+} },
+{
  quickReplyButton: {
 displayText: 'PKBM',
 id: 'pkbm'
@@ -787,7 +957,9 @@ btn = [{
  urlButton: {
 displayText: 'Link Pendaftaran',
 url: 'https://pesantrendt.org/pendaftaran/program/'
-},  quickReplyButton: {
+}
+},  {
+quickReplyButton: {
 displayText: 'PKBM',
 id: 'pkbm'
  } ,
@@ -823,7 +995,8 @@ btn = [{
  urlButton: {
 displayText: 'Instagram',
 url: 'https://pesantrendt.org/pendaftaran/program/'
-},  
+}
+},  {
 quickReplyButton: {
 displayText: 'PKBM',
 id: 'pkbm'
@@ -843,7 +1016,9 @@ btn = [{
  urlButton: {
 displayText: 'Link Pendaftaran',
 url: 'https://pesantrendt.org/pendaftaran/program/'
-},  quickReplyButton: {
+}
+}, {
+  quickReplyButton: {
 displayText: 'PKBM',
 id: 'pkbm'
  } ,
@@ -969,8 +1144,6 @@ if (budy.startsWith('$')) {
 } catch (err) {
 m.reply(util.format(err))
 }
-
-		
 			
 		if (isCmd && budy.toLowerCase() != undefined) {
 		if (m.chat.endsWith('broadcast')) return
