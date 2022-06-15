@@ -747,7 +747,7 @@ displayText: 'back',
 id: 'dkm_masjid'
   },}]
   
-  ikyy.send5ButImg(m.chat, menu,` ` , { url: dkm_masjid } , btn)
+  ikyy.send5ButImg(m.chat, menu,` ` , { url: kbihu } , btn)
 }
 break
 ////
