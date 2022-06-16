@@ -155,7 +155,7 @@ ikyy.ev.emit('messages.upsert', msg)
 
 ////// MENU HELP BUTTON 1 PAKET
 
-//1.________________________________
+//.________________________________
 
 case "help": case "menu":
 
@@ -204,7 +204,7 @@ id: 'dkm_masjid'
   
   break
 
-//2.________________________________
+//.________________________________
 
 case "programdt":
 
@@ -251,7 +251,7 @@ id: 'lemstra'
 }
 break
 
-//3.________________________________
+//.________________________________
 
 case "pesantren2":
 
@@ -291,7 +291,7 @@ break
 
 //// PROGRAM DT PESANTREN
 //// LIST MESSAGE
-//4.________________________________
+//.________________________________
 
 case "lemstra":
 {
@@ -317,7 +317,7 @@ Merupakan Layanan Program Lembaga Strategis DT
 - Usaha Produktif`,  ` `, `${ucapaWaktu}\n`, `Click Here`, seeections, )
   }
   
-  //5.________________________________
+  //.________________________________
 
 case "p1": case "pesantren":
   {
@@ -344,7 +344,7 @@ Merupakan Layanan *Program Kepesantrenan Daarut Tauhiid* :
   break
  
 ////PROGRAM DT PENDIDIKAN
-//6.________________________________
+//.________________________________
 
 case "p2": case "pendidikan":
   {
@@ -374,7 +374,7 @@ Layanan pendidikan mulai dari Playgroup/TK hingga STAI`, ` `,`${ucapaWaktu}\n`,`
   break
 
 ///ISI LIST MESSAGE P1 ( PESANTREN )
-//7.________________________________
+//.________________________________
 
 case "a1":
 {
@@ -1135,13 +1135,13 @@ http://www.daaruttauhiid.org
 
 	}
 
-//36.________________________________
+//.________________________________
 case 'pendaftarantahfidzulquran':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/42`)
 break
 
-//37.________________________________
+//.________________________________
 case 'stqweekend':
   
   {
@@ -1170,9 +1170,9 @@ Catatan : Setelah selesai satu periode program, peserta dapat melanjutkan ke per
 
 break
 
-//38.________________________________'
+//.________________________________'
 
-//39.________________________________
+//.________________________________
 case 'stqmukimm':
   {
 menu =`*A1.2.4.	STQ Mukim Mahasiswa*
@@ -1198,7 +1198,7 @@ https://pesantrendt.org/pendaftaran/program/2
 	}
 break
 
-//40.________________________________
+//.________________________________
 case 'stqmukimt1':
   {
 menu =`*A1.2.1. STQ Mukim Takhassus 1 Tahun*
@@ -1223,13 +1223,13 @@ https://pesantrendt.org/pendaftaran/program/1
 
 break
 
-//42.________________________________
+//2.________________________________
 case 'pendaftaranstqmukimt1':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/1`)
 break
 
-//43.________________________________
+//.________________________________
 case 'stqmukimt3':
   {
 menu =`*A1.2.2. STQ Mukim Takhassus 3 Tahun*
@@ -1255,13 +1255,13 @@ https://pesantrendt.org/pendaftaran/program/49
 	
 break
 
-//44.________________________________
+//.________________________________
 case 'pendaftaranstqmukimt3':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/49`)
 break
 
-//45.________________________________
+//.________________________________
 case 'beasiswahafizh':
   {
 menu =`*A1.2.5.	STQ Mukim Beasiswa Hafidz Tangguh*
@@ -1287,13 +1287,13 @@ https://bit.ly/Daftar_BeasiswaHafidzTangguh
 
 break
 
-//46.________________________________
+//.________________________________
 case 'pendaftaranbeasiswa':
 reply(`*Link Pendaftaran :*
 https://bit.ly/Daftar_BeasiswaHafidzTangguh`)
 break
 
-//47.________________________________
+//.________________________________
 
 case 'isi_kesetaraan':
   {
@@ -1325,13 +1325,13 @@ https://pesantrendt.org/pendaftaran/program/48
 
 break
 
-//48.________________________________
+//.________________________________
 case 'pendaftaranisi_kesetaraan':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/48`)
 break
 
-//49.________________________________
+//.________________________________
 case 'kajian':
   {
 menu =`Berikut info kajian Daarut Tauhiid
@@ -1355,7 +1355,7 @@ textkaj3 = 'C1.3 Kajian Dua Pekanan'
 
 break
 
-//50.________________________________
+//.________________________________
 case 'kajian2pekanan':
   {
 
@@ -1445,7 +1445,7 @@ No. Kontak
 }
 break
 
-//52.________________________________
+//.________________________________
 case 'kajianaa':
 { menu =`*C1.1 Kajian Aa Gym*
 Bismillahirrahmanirrahim, sahabat sekalian.. 
@@ -1482,7 +1482,7 @@ Informasi kegiatan dan pengembangan dakwah Aa dan Pesantren Daarut Tauhiid silah
 }
 break
 
-//53.________________________________
+//.________________________________
 case 'dtnews':
 { menu =`Berikut ini merupakan informasi Kajian dan Syiar Dakwah Daarut Tauhiid
 
@@ -1505,7 +1505,59 @@ ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_C_pesantren_gede_tiny } , btn)
 }
 break
 
-		 
+		 case 'mqpub':
+{ menu =`*C3.3 MQ Publishing*
+MQS Publishing 
+Penerbit Resmi Buku Aa Gym
+* Galeri Buku Aa Gym
+* Penerbit
+
+@mqsquran 
+@wakafmqsquran
+
+linktr.ee/mqspublishing
+`
+
+
+butonid1 = "mqmedia"
+					butonteks1 =  '⬡ Back' 
+				 
+					
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/mqspublishing' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqpub } , btn) 
+}
+break
+
+case 'mqfm':
+{ menu =`*C3.2 MQFM*
+Radio MQFM Bandung merupakan sebuah radio dakwah yang digagas oleh KH Abdullah Gymnastiar,pendiri pondok Pesantren Daarut Tauhiid pada 1 Agustus 2001, dengan segmen Keluarga Muslim Indonesia.
+
+
+Like, Share dan Follow akun kami lainnya
+🔊 MQ Radio : MQFM 102.7
+
+Website: www.mqfmnetwork.com
+IG: @mqfmbandung
+FB: Radio MQFM Bandung
+Twitter: @mqfmbandung
+Youtube : MQFM Bandung`
+
+
+ butonid1 =  '⬡ Back' 
+ butonid1 = 'mqmedia'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+{  quickReplyButton: { displayText: 'Wakaf Terpadu Batam', id: 'wakafbatam' },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqfm } , btn) 
+}
+break
 					
   ///// TAMBHAN PENTING
   
