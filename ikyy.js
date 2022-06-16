@@ -396,77 +396,7 @@ case "a4":
   reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
 
 	break
-
-/// ISI LIST MESSAGE P2 ( PENDIDIKAN )
-
-
-case "b1":
-{
-}
-break
-case "b2":
-  {
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-  break
-  case "b3":
-  {
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-  break
-case "b3":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b4":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b5":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b6":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b7":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b8":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b9":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b10":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b11":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "b12":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-
-//// ISI BUTON ID PESANTREN2
-
-
-
+//.________________________________
 case "e1":
 {
 	menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
@@ -501,43 +431,9 @@ ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_diniyahformal } , btn)
 
 	}
 	break
-case "e2":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
 
-	break
-case "e3":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
+//.________________________________
 
-	break
-
-////// ISI BUTTON ID MENU
-
-
-
-case "d1":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "d2":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "d3":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "d4":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-
-////// CASE 18.js
 case 'katalogdtq':
 menu =`*A1.2.9. Dauroh Tahsin Al Quran (DTQ)*
 
@@ -564,7 +460,9 @@ url: 'https://pesantrendt.org/pendaftaran/program/'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)
 	
 break
-//// 2
+
+//.________________________________
+
 case 'halaqahramadhan':
 menu =`*A1.2.10. Halaqah Tahfidz Ramadhan (HTR)*
 
@@ -627,7 +525,9 @@ url: 'https://pesantrendt.org/pendaftaran/program/47'
   
   ikyy.send5ButImg(m.chat, menu,` ` , { url: bbq_tiny } , btn)
   break
-///
+
+//.________________________________
+
   case 'diniyahformal':
 menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
 
@@ -660,7 +560,9 @@ url: 'https://bit.ly/daftarPDFDT'
   
   ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_diniyahformal_tiny } , btn)
   break
-	////
+
+//.________________________________
+
 	case "dkm_masjid":
 	  {
 	    menu =`*A1.1. DKM Masjid Daarut Tauhiid*
@@ -714,6 +616,8 @@ id: 'kbihu'
 	  }
 	  break
 
+//.________________________________
+
 case 'kbihu':
 {
 menu =`*A1.1.1. KBIHU*
@@ -751,7 +655,8 @@ id: 'dkm_masjid'
 }
 break
 
-////
+//.________________________________
+
 case 'daycare':
 {
 menu =`*A3.2. Daycare*
@@ -778,6 +683,9 @@ id: 'lemstra'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: klinikdt } , btn)
 	}
 	break
+
+//.________________________________
+
 case 'klinik':
 {
 menu =`*A3.1. Klinik Kesehatan*
@@ -807,7 +715,9 @@ id: 'lemstra'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: klinikdt } , btn)
 }
 break
-////
+
+//.________________________________
+
 	case 'dauroh':
 menu =`*A1.3.2.	Dauroh Qolbiyah (DQ)*
 
@@ -838,7 +748,9 @@ id: 'pkbm'
   
   ikyy.send5ButImg(m.chat, menu,` ` , { url: dauroh } , btn)
   break
-///
+
+//.________________________________
+
 	case 'pmk':
 menu =`*A1.3.1. Pesantren Masa Keemasan (PMK)*
 *Daarut Tauhiid*
@@ -871,7 +783,9 @@ id: 'pkbm'
   
   ikyy.send5ButImg(m.chat, menu,` ` , { url: pmk } , btn)
 	break
-	////
+	
+	//.________________________________
+	
 	case 'ppm':
 menu =`*A1.3.3.	Program Pesantren Mahasiswa*
 
@@ -915,7 +829,9 @@ id: 'pkbm'
   
   ikyy.send5ButImg(m.chat, menu,` ` , { url: ppm_i } , btn)
   break
-	//// LST MESSAGE
+
+//.________________________________
+
 	case 'baitulquran':
 menu = `
 *Baitul Quran (BQ)* merupakan unit pendidikan di bawah Lembaga Pesantren Daarut Tauhid yang fokus pada penyelenggaraan pendidikan di bidang Al Quran (Tahfidz dan Tahsin) `
@@ -948,7 +864,8 @@ ikyy.sendListMsg(m.chat, menu,  ` `, `${ucapaWaktu}\n`, `Click Here`, seeections
 
 break
 
-////
+//.________________________________
+
 case 'paudsjenis':
   {
 menu =`*A1.3.7. Satuan Paud Sejenis (SPS)*
@@ -969,7 +886,9 @@ id: 'pkbm'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: paudsejenis } , btn)
   }
 break
-///
+
+//.________________________________
+
 case 'dtenglish':
 {
 menu =`*A1.3.5. DT English*
@@ -1007,7 +926,9 @@ id: 'pkbm'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: dtenglish } , btn)
 	}
 break
-//
+
+//.________________________________
+
 case 'kesetaraan':
 {
 menu =`*A1.3.4. Kesetaraan*
@@ -1029,6 +950,9 @@ id: 'pkbm'
 }
 	
 break
+
+//.________________________________
+
 case 'madrasahdiniyah':
 {
 menu =`*A1.3.6. Madrasah Diniyah Takmiliyah Awaliyah*
@@ -1048,7 +972,9 @@ id: 'pkbm'
 	
 	
 break
-///
+
+//.________________________________
+
 case 'pkbm':
 	{
 	menu = `A1.3* Pusat Kegiatan Belajar Masyarat PKBM
@@ -1085,7 +1011,9 @@ rows: [ {title: `A1.3.1. Pesantren Masa Keemasan (PMK)`,rowId: `stqmukimt1`, des
 }
 
 break
-	//// 34-50
+
+//.________________________________
+
 	case 'tahfidzulquran':
 
   {
@@ -1116,6 +1044,9 @@ dengan metode TQT yang dibimbing langsung oleh tim pengajar Baitul Quran - Pesan
 	}
 
 break
+
+//.________________________________
+
 case 'dtnews':
 
 { menu = `Berikut ini merupakan informasi Kajian dan Syiar Dakwah Daarut Tauhiid
@@ -1128,14 +1059,12 @@ http://www.daaruttauhiid.org
 `
 
 		btn = [{   urlButton: { displayText: '*Masjid Dt Jakarta*', url: 'https://instagram.com/kbihudaaruttauhiid_bdg' } },{  quickReplyButton: { displayText: 'C1. Kajian', id: 'kajian'   }},{  quickReplyButton: { displayText: 'C2. Ssg', id: 'ssg'   }},{  quickReplyButton: { displayText: 'C3.Media Dt', id: 'mqmedia'   },}] 
-		ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)
-		
-		
-		
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)}
 
-	}
+break
 
 //.________________________________
+
 case 'pendaftarantahfidzulquran':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/42`)
@@ -2256,6 +2185,44 @@ butonteks3 =  'Back'
 {  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
 	
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: smk } , btn) 
+}
+break
+
+//.________________________________
+case 'seruatangerang':
+{ menu =`*3. Kawasan Wakaf Terpadu Serua Tangerang*
+
+📌 *Klik Donasi*
+https://dtpeduli.org/wakafserua
+
+📲 *Konfirmasi*
+http://wa.me/6281366317363
+ 
+Kawasan Wakaf Terpadu Serua Tangerang berlokasi di Jl. Sukamulya V Serua Indah, Ciputat Tangerang Selatan. Kawasan ini merupakan kawasan pendidikan formal Azkia Islamic School berbasis boarding yang diperuntukkan khusus bagi siswa pra sejahtera dengan beasiswa full di bawah program DT Peduli.
+
+Para siswa beasiswa berasal dari seluruh Indonesia (Cabang DT Peduli). Sekolah Formal yang ada di Serua adalah SMP dan SMA Putra & Putri.
+
+Wakaf Pembangunan Kawasan Wakaf Terpadu ini menjadi peluang untuk memperoleh pahala mengalir abadi dan menambah nilai kebaikan, serta menyiapkan generasi para pemimpin di masa depan. Pahala dari setiap Ilmu keislaman, terutama setiap huruf al-Quran yang dipelajari, dihafal, dan diajarkan kembali kepada anak-anak mereka akan terus mengalir.
+
+Klik tombol dibawah ini ⬇️
+untuk Program Wakaf lain nya`
+
+butonid1 = "wakaf"  
+butonteks1 =  'Wakaf Al-Quran Plus' 
+butonid2 = "wakafbatam"  
+butonteks2=  "Wakaf Terpadu Batam"
+butonid3 = "wakafeco"  
+butonteks1 =  'Wakaf Terpadu Eco Pesantren 3' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 } ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: seruatangerang } , btn) 
 }
 break
 
