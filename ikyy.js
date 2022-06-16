@@ -1558,6 +1558,36 @@ Youtube : MQFM Bandung`
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqfm } , btn) 
 }
 break
+//.________________________________
+case 'mqtv':
+{ menu =`*C3.1 MQTV*
+MQTV atau Manajemen Qolbu Television merupakan perusahaan yang bergerak dalam media informasi serta salah satu alternatif tontonan dakwah layar kaca.
+
+📺  SIMAK MQTV MELALUI :
+🔸 Indihome Channel 854
+🔸 Live streaming: https://www.useetv.com/livetv/mqtv
+🔸 Youtube : MQTV60 BANDUNG
+🔸 Satelit Freesat SMV Channel 0503
+🔸 Website : mqtv.co.id
+🔸 Genflix : http://bit.ly/live_mqtv
+
+__
+Follow, Like, Comment and Share..
+IG : @mqtv60 @mqtvshopping
+FB : MQTV Sahabat ANDA | Sahabat MQTV
+TWITTER : MQTV60
+YOUTUBE : MQTV60 BANDUNG`
+
+butonid1 = "mqmedia"
+butonteks1 =  '⬡ Back' 
+				 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/mqtv60' } },
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqtv } , btn) 
+}
+break
 					
   ///// TAMBHAN PENTING
   
