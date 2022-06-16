@@ -1389,15 +1389,43 @@ Klik tombol dibawah ini ⬇️
 untuk Program Wakaf lain nya`
 
 		
-		btn = [{   urlButton: { displayText: 'Link Donasi', url: 'https://dtpeduli.org/wakafeco3' } },{  quickReplyButton: { displayText: 'Wakaf Al-Quran Plus', id: 'wakaf' } } ,{ 
-		  quickReplyButton: { displayText: 'Wakaf Terpadu Serua Tangerang', id: 'seruatangerang'  } },{  quickReplyButton: { displayText: 'Wakaf Terpadu Batam', id: 'wakafbatam' },}] 	
+		btn = [{   urlButton: { displayText: 'Link Donasi', url: 'https://dtpeduli.org/wakafeco3' } },
+		
+{  quickReplyButton: { displayText: 'Wakaf Al-Quran Plus', id: 'wakaf' } } ,
+
+{ quickReplyButton: { displayText: 'Wakaf Terpadu Serua Tangerang', id: 'seruatangerang'  } },
+
+{  quickReplyButton: { displayText: 'Wakaf Terpadu Batam', id: 'wakafbatam' },}] 
+	
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
 					
 
 	}
+	
+	///
+	
+	case 'ssg':
+{ menu =`*C2. SSG*
+Santri Siap Guna Daarut Tauhiid (SSG DT)
+
+Program Pembinaan Generasi Muda Berkarakter BAKU (Baik & Kuat)
+
+Menjadi : "Kader Mandiri, Berjiwa Pelopor dan Ahli Khidmat"
+
+linktr.ee/DiklatSSG
+`
+
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://instagram.com/ssg_dt' } },
+		
+{  quickReplyButton: { displayText: 'Back', id: 'dtnews' } ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+}
 break
 
 		 
+					
   ///// TAMBHAN PENTING
   
   case 'tourl': {
