@@ -1552,8 +1552,7 @@ Youtube : MQFM Bandung`
 		
 	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
 		
-{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
-{  quickReplyButton: { displayText: 'Wakaf Terpadu Batam', id: 'wakafbatam' },}] 
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
 	
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqfm } , btn) 
 }
@@ -1608,7 +1607,500 @@ await fs.unlinkSync(media)
 	
 	break
 
+case 'web_smk':
+reply(`Dapatkan info lengkap SMK DT:
+https://smkdtbs.sch.id/
 
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_smk':
+reply(`wa.me/62895413775658`)
+break
+
+
+//.________________________________
+case 'sma_putri':
+{ menu =`*A2.9. SMA DT Boarding School Putri*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+		= Rp. 35.500.000
+	
+*-	BPB (Biaya Pendidikan Bulanan)*
+		= Rp. 3.500.000
+
+*Instagram*
+https://www.instagram.com/sma_dtbs_putri/
+
+*Kontak Person :*
+0812 9931 2010`
+
+butonid1 = "web_sma_putri"  
+butonteks1 =  'Website' 
+butonid2 = "wa_sma_putri"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikan"  
+butonteks3 =  'Back' 
+				
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/sma_dtbs_putri/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: sma_putri } , btn) 
+}
+break
+
+case 'web_sma_putri':
+reply(`Dapatkan info lengkap SMA DT Putri:
+https://smapi.daaruttauhiid.sch.id/  
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_sma_putri':
+reply(`wa.me/6281299312010`)
+break
+
+//.________________________________
+case 'sma_putra':
+{ menu =`*A2.8. SMA DT Boarding School Putra*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+	Program 4 Tahun = Rp. 40.000.000
+	Program 3 Tahun =  Rp. 35.500.000
+	
+*-	BPB (Biaya Pendidikan Bulanan)*
+Program 4 Tahun = Rp. 3.500.000
+Program 3 Tahun = Rp. 3.500.000
+
+*Instagram*
+https://instagram.com/sma.daaruttauhiidputra
+
+*Kontak Person :*
+022-82005394
+0822 3000 2910`
+butonid1 = "web_sma_putraweb_sma_putra"  
+butonteks1 =  'Website' 
+butonid2 = "wa_sma_putrawa_sma_putra"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+					
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/sma.daaruttauhiidputra' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: sma_putra } , btn) 
+}
+break
+
+case 'web_sma_putra':
+reply(`Dapatkan info lengkap SMA DT Putra:
+https://smapa.daaruttauhiid.sch.id/  
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_sma_putra':
+reply(`wa.me/6282230002910`)
+break
+
+//.________________________________
+case 'sma_adzkia':
+{ menu =`*A2.10. SMA Adzkia Islamic School DT*
+
+*Info Biaya :*
+- Beasiswa DT Peduli
+
+*Instagram*
+https://instagram.com/smaadzkiadt
+
+*Kontak Person :*
+(021)74638050
+0811 1840 415`
+
+butonid1 = "web_sma_adzkia"  
+butonteks1 =  'Website' 
+butonteks2 = "wa_sma_adzkia"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+					
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/smaadzkiadt' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: sma_adzkia } , btn) 
+}
+break
+
+case 'web_sma_adzkia':
+reply(`Dapatkan info lengkap SMA DT Adzkia:
+http://smaadzkiadt.sch.id/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_sma_adzkia':
+sendKontak(`wa.me/628111840415`)
+break
+
+//.________________________________
+case 'smp_adzkia':
+{ menu =`*A2.7. SMP Adzkia Islamic School DT*
+
+*Info Biaya :*
+- Beasiswa DT Peduli
+
+*Instagram*
+https://instagram.com/smpadzkiadt
+
+*Kontak Person :*
+0858 1099 5233`
+
+butonid1 = "web_smp_adzkia"  
+butonteks1 =  'Website' 
+butonid2 = "wa_smp_adzkia"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikan"  
+butonteks3 =  'Back' 
+					
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/smpadzkiadt' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: smp_adzkia } , btn) 
+}
+break
+
+case 'web_smp_adzkia':
+reply(`Dapatkan info lengkap SMP DT Adzkia:
+https://smp.adzkia.sch.id/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_smp_adzkia':
+reply(`wa.me/6285810995233`)
+break
+
+//.________________________________
+case 'smp_batam':
+{ menu =`*A2.6. SMP DT Boarding School Batam*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 24.150.000
+
+*-	BPB (Biaya Pendidikan Bulanan)*
+= Rp. 2.000.000
+
+*Instragram*
+https://instagram.com/smp_dtbsbatam
+
+*Kontak Person :*
+0821 3000 6696
+`
+
+butonid1 = "web_smp_batamweb_smp_batam"  
+butonteks1 = 'Website' 
+butonid2 = "wa_smp_batamwa_smp_batam"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+					
+		
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/smp_dtbsbatam' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: smp_batam } , btn) 
+}
+break
+
+case 'web_smp_batam':
+reply(`Dapatkan info lengkap SMP DT Batam:
+http://smp-batam.daaruttauhiid.sch.id/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_smp_batam':
+reply (`wa.me/6282130006696`)
+break
+
+//.________________________________
+case 'smp_putri':
+{ menu =`*A2.5. SMP DT Boarding School Putri*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 38.180.000
+
+*-	BPB (Biaya Pendidikan Bulanan)*
+= Rp. 3.600.000
+
+*Instagram*
+https://www.instagram.com/smpdtputri
+
+*Kontak Person :*
+0811 224 3019
+`
+butonid1 = "web_smp_putriweb_smp_putri"  
+butonteks1 =  'Website' 
+butonid2 = "wa_smp_putriwa_smp_putri"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+			
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: smp_putri } , btn) 
+}
+break
+
+case 'web_smp_putri':
+reply(`Dapatkan info lengkap SMP DT Putri:
+http://www.smpdtbs.sch.id/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_smp_putri':
+reply (`wa.me/628112243019`)
+break
+
+//.________________________________
+case 'smp_putra':
+{ menu =`*A2.4. SMP Daarut Tauhiid Boarding School Putra*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 38.180.000
+
+*-	BPB (Biaya Pendidikan Bulanan)*
+= Rp. 3.600.000
+
+*Instagram*
+https://www.instagram.com/smpdtbseco/
+
+Web	: http://www.smpdtbs.sch.id/
+      http://ppdb.daaruttauhiid.sch.id/
+
+*Kontak Person :*
+0813 2206 0890 
+`
+
+butonid1 =  "web_smp_putra"  
+butonteks1 =  'Website' 
+butonid2 = "wa_smp_putra"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/smpdtbseco/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 } }] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: smp_putra } , btn) 
+}
+break
+
+case 'web_smp_putra':
+reply(`Dapatkan info lengkap SMP DT Putra:
+http://www.smpdtbs.sch.id/`)
+
+*PPDB*
+(`http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_smp_putra':
+reply (`wa.me/6281322060890`)
+break
+
+//.________________________________
+case 'sekolahdasar':
+{ menu =`*A2.3. SD Daarut Tauhiid*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 12.050.000
+
+*-	BPB (Biaya Pendidikan Bulanan)*
+= Rp. 1.055.000
+
+*Instagram*
+https://instagram.com/sd.daaruttauhiid/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/
+
+*Kontak Person :*
+022-20279542
+0811 2343 809 
+`
+butonid1 = "web_sdweb_sd"  
+butonteks1 =  'Website' 
+butonid2 = "wa_sdwa_sd"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/sd.daaruttauhiid/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: sd_aja } , btn) 
+}
+break
+
+case 'web_sd':
+reply(`Dapatkan info lengkap SD Daarut Tauhiid:
+https://sd.daaruttauhiid.sch.id/`)
+
+*PPDB*
+(`http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_sd':
+reply(`wa.me/628112343809`)
+break
+
+//.________________________________
+case 'tamankanak-kanak':
+{ menu =`*A2.2. TK Daarut Tauhiid*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 8.452.500 (Varian I)
+ = Rp. 6.198.500 (Varian II)
+
+*- BPB (Biaya Pendidikan Bulanan)*
+= Rp. 493.750 (Varian I)
+= Rp. 398.750 (Varian II)
+
+*Instagram* 
+https://instagram.com/pgtkdaaruttauhiid
+
+*Kontak Person :* 
+0818 0390 0658
+0896 9240 4691
+`
+butonid1 = "web_pgtk" 
+butonteks1 =  'Website' 
+butonid2 = "wa_pgtk" 
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikan"  
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pgtkdaaruttauhiid' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } },
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+ikyy.send5ButImg(m.chat, menu,` ` , { url: tk_aja } , btn) 
+}
+break
+
+case 'web_pgtk':
+reply(`Jangan Lupa cek web Kami ya:
+https://pg-tk.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_pgtk':
+reply(`wa.me/6281803900658`)
+break
+
+//.________________________________
+case 'playgroup':
+{ menu =`*A2.1. PG Daarut Tauhiid*
+
+*Info Biaya :*
+*_- BPP (Biaya Pengembangan Pendidikan)_*
+ = Rp. 7.245.000 (Varian I)
+ = Rp. 3.984.750 (Varian II)
+
+*-	BPB (Biaya Pendidikan Bulanan)*
+= Rp. 418.750 (Variant I)
+= Rp. 343.750 (Varian II)
+
+*Instagram* 
+https://instagram.com/pgtkdaaruttauhiid
+
+*Kontak Person :* 
+0818 0390 0658
+0896 9240 4691
+`
+
+butonid1 = "web_pgtkweb_pgtk" 
+butonteks1 =  'Website' 
+butonid2 = "wa_pgtkwa_pgtk" 
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "back_pgtkback_pgtk" 
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pgtkdaaruttauhiid' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+}
+break
 
 
 
