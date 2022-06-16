@@ -750,6 +750,7 @@ id: 'dkm_masjid'
   ikyy.send5ButImg(m.chat, menu,` ` , { url: kbihu } , btn)
 }
 break
+
 ////
 case 'daycare':
 {
@@ -1084,7 +1085,318 @@ rows: [ {title: `A1.3.1. Pesantren Masa Keemasan (PMK)`,rowId: `stqmukimt1`, des
 }
 
 break
+	//// 34-50
+	case 'tahfidzulquran':
+
+  {
+
+menu =`*A1.2.7.	Tahfidzul Quran Tematik (TQT)*
+
+Merupakan program Tadabbur dan Tahfidz Al-Quran secara tematik berdasarkan 
+surat pilihan selama 5 pertemuan setiap periodenya, 
+dengan metode TQT yang dibimbing langsung oleh tim pengajar Baitul Quran - Pesantren Daarut Tauhiid.
+
+*Info Biaya :*
+• Pendaftaran : Rp. 50.000,-
+• Pendidikan* selama 1 Periode :
+  - ONLINE  : Rp. 150.000,-
+  - OFFLINE : Rp. 200.000
+  * dipenuhi selelah dinyatakan lulus seleksi bacaan
+	  
+*Kontak Person :* 
+0878 2502 2225
+`
+		
+		
+		
+		
+		btn = [{   urlButton: { displayText: '*Link Pendaftaran*', url: 'https://pesantrendt.org/pendaftaran/program/42' } } , {  quickReplyButton: { displayText: 'Home', id: 'menu'   },}]
+
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: tahfidzulquran } , btn) 
+	}
+
+break
+case 'dtnews':
+
+{ menu = `Berikut ini merupakan informasi Kajian dan Syiar Dakwah Daarut Tauhiid
+
+
+🌐 *Situs resmi :*
+http://www.daaruttauhiid.org
+
+🔴 https://youtube.com/DaarutTauhiidOfficial
+`
+
+		btn = [{   urlButton: { displayText: '*Masjid Dt Jakarta*', url: 'https://instagram.com/kbihudaaruttauhiid_bdg' } },{  quickReplyButton: { displayText: 'C1. Kajian', id: 'kajian'   }},{  quickReplyButton: { displayText: 'C2. Ssg', id: 'ssg'   }},{  quickReplyButton: { displayText: 'C3.Media Dt', id: 'mqmedia'   },}] 
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)
+		
+		
+		
+
+	}
+
+//36.________________________________
+case 'pendaftarantahfidzulquran':
+reply(`*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/42`)
+break
+
+//37.________________________________
+case 'stqweekend':
+  
+  {
+menu =`*A1.2.6.	STQ Weekend (Tahfidz Akhir Pekan)*
+
+Merupakan program menghafal Al Quran (Tahfidz) di akhir pekan setiap Sabtu dan Ahad, selama tiga bulan.
+Catatan : Setelah selesai satu periode program, peserta dapat melanjutkan ke periode² selanjutnya.
+
+*Info Biaya :*
+• Pendaftaran : Rp. 50.000,-
+• Pendidikan* selama 1 Periode / 24x pertemuan :
+  - ONLINE  : Rp. 500.000,-
+  - OFFLINE : Rp. 550.000,-
+*dipenuhi setelah dinyatakan lulus seleksi bacaan
+	  
+
+*Kontak Person :* 
+0878 2502 2225
+`
+		
+		
+		btn = [{   urlButton: { displayText: '*Instagram 1*', url: 'https://pesantrendt.org/pendaftaran/program/3'
+		} }]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: stqweekend } , btn) 
+	}
+
+break
+
+//38.________________________________'
+
+//39.________________________________
+case 'stqmukimm':
+  {
+menu =`*A1.2.4.	STQ Mukim Mahasiswa*
+
+Merupakan program intensif menghafal Al Quran disertai pendidikan diniyah dan tata nilai budaya Pesantren Daarut Tauhiid, selama minimal 1 tahun untuk Mahasiswa/i yang sedang kuliah di wilayah Bandung.
+
+*Info Biaya :*
+• Pendaftaran : *Rp. 200.000*
+• Pendidikan/DSP (tahun pertama) : *Rp. 13.000.000,-**
+  * dipenuhi maksimal 7 hari setelah pengumuman kelulusan seleksi
+  * DSP tahun selanjutnya (apabila melanjutkan) : Rp. 8.000.000,-
+• SPP : Tidak ada (biaya makan ditanggung masing-masing sesuai keperluan)
+	  
+*Link Pendaftaran :* 
+https://pesantrendt.org/pendaftaran/program/2   
+
+*Kontak Person :* 
+0878 2502 2225
+`
+
+		btn = [{ urlButton: { displayText: '*Link Pendaftaran*', url: 'https://pesantrendt.org/pendaftaran/program/2 ' }}]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: stqmukimm } , btn)
+	}
+break
+
+//40.________________________________
+case 'stqmukimt1':
+  {
+menu =`*A1.2.1. STQ Mukim Takhassus 1 Tahun*
+
+Merupakan program menghafal Al Quran secara intensif disertai pendidikan diniyah dan tata nilai budaya Pesantren Daarut Tauhiid, dengan durasi program selama 1 tahun.
+
+*Info Biaya :*
+• Pendaftaran : *Rp. 200.000*
+• Masa Pendidikan
+  - DSP : 13.050.000*
+    * dipenuhi maksimal 7 hari setelah pengumuman seleksi
+  - SPP : 1.950.000/bulan (sudah termasuk biaya makan 3x/hari)
+
+*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/1
+
+*Kontak Person :*
+0878 2502 2225
+`
+		btn = [{   urlButton: { displayText: '*Instagram 1*', url: 'https://pesantrendt.org/pendaftaran/program/1' } } ]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: stqmukimt } , btn) }
+
+break
+
+//42.________________________________
+case 'pendaftaranstqmukimt1':
+reply(`*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/1`)
+break
+
+//43.________________________________
+case 'stqmukimt3':
+  {
+menu =`*A1.2.2. STQ Mukim Takhassus 3 Tahun*
+
+Merupakan program menghafal Al Quran secara intensif disertai pendidikan diniyah dan tata nilai budaya Pesantren Daarut Tauhiid, dengan durasi program selama 3 tahun.
+
+*Info Biaya :*
+• Pendaftaran : *Rp. 200.000*
+• Masa Pendidikan
+  - DSP : 15.850.000*
+    * dipenuhi maksimal 7 hari setelah pengumuman seleksi
+  - SPP : 1.950.000/bulan (sudah termasuk biaya makan 3x/hari)
+
+*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/49
+
+*Kontak Person :*
+0878 2502 2225
+`
+
+		btn = [{   urlButton: { displayText: '*Instagram 1*', url: 'https://instagram.com/kbihudaaruttauhiid_bdg' } } ]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: stqmukimt } , btn) }
 	
+break
+
+//44.________________________________
+case 'pendaftaranstqmukimt3':
+reply(`*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/49`)
+break
+
+//45.________________________________
+case 'beasiswahafizh':
+  {
+menu =`*A1.2.5.	STQ Mukim Beasiswa Hafidz Tangguh*
+
+Merupakan program menghafal Al Quran mukim dengan paket program selama 2 tahun dan 1 tahun masa khidmat/pengabdian
+
+*Info Biaya :*
+• Pendaftaran : *GRATIS*
+• Pendidikan/DSP : *GRATIS*
+• SPP : *GRATIS* setiap bulan
+	(sudah termasuk biaya makan 3x/hari)
+
+*Link Pendaftaran :* 
+https://bit.ly/Daftar_BeasiswaHafidzTangguh 
+
+*Kontak Person :* 
+0878 2502 2225
+`
+		
+		btn = [{   urlButton: { displayText: '*Link Pendaftaran*', url: 'https://bit.ly/Daftar_BeasiswaHafidzTangguh' } } ]
+
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: beasiswahfizh } , btn) }
+
+break
+
+//46.________________________________
+case 'pendaftaranbeasiswa':
+reply(`*Link Pendaftaran :*
+https://bit.ly/Daftar_BeasiswaHafidzTangguh`)
+break
+
+//47.________________________________
+
+case 'isi_kesetaraan':
+  {
+menu =`*A1.2.3.	STQ Mukim plus Kesetaraan*
+
+Merupakan program menghafal Al Quran disertai pendidikan umum melalui paket kesetaraan, pendidikan diniyah dan tata nilai budaya Pesantren Daarut Tauhiid (secara intensif selama 3 tahun)
+
+*Info Biaya :*
+• Pendaftaran : *Rp. 200.000*
+ Masa Pendidikan
+   - DSP : 15.850.000*
+      * dipenuhi maksimal 7 hari setelah pengumuman seleksi
+   - SPP : 1.950.000/bulan
+   (sudah termasuk biaya makan 3x/hari)
+• Pendidikan Kesetaraan 
+  Paket B : 4.000.000
+  Paket C : 4.500.000
+
+*Link Pendaftaran :* 
+https://pesantrendt.org/pendaftaran/program/48
+
+*Kontak Person :* 
+0878 2502 2225
+`
+		
+	
+		btn = [{   urlButton: { displayText: '*Link Pendaftaran*', url: 'https://pesantrendt.org/pendaftaran/program/48' } } ]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: STQkesetaraanJPG } , btn) }
+
+break
+
+//48.________________________________
+case 'pendaftaranisi_kesetaraan':
+reply(`*Link Pendaftaran :*
+https://pesantrendt.org/pendaftaran/program/48`)
+break
+
+//49.________________________________
+case 'kajian':
+  {
+menu =`Berikut info kajian Daarut Tauhiid
+
+📌 *Donasi Media Online DT:*
+https://bit.ly/donasiDT`
+		
+		
+textkaj1 = 'C1.1 Kajian Aa Gym'
+butkaj1 = 'kajianaa'
+butkaj2 = "kajianmaghrib"
+
+textkaj2 =	'C1.2 Kajian Bada Maghrib'
+ butkaj3 = "kajian2pekanan"
+textkaj3 = 'C1.3 Kajian Dua Pekanan'
+					
+		
+		jpegThumbnail: loc_C_pesantren_gede_tiny,
+		btn = [{   urlButton: { displayText: '*Link Donasi*', url: 'https://instagram.com/kbihudaaruttauhiid_bdg' } } ]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: kbihu } , btn) }
+
+break
+
+//50.________________________________
+case 'kajian2pekanan':
+  {
+
+menu =`*C1.3 Kajian Dua Pekanan*
+*Kajian 2 Pekanan*
+
+No. Kontak
+081380007729
+`
+		btn = [{   urlButton: { displayText: '*Masjid Dt Jakarta*', url: 'https://instagram.com/kbihudaaruttauhiid_bdg' } },{
+		  urlButton: { displayText: '*Instagram*', url: 'https://instagram.com/masjiddaaruttauhiid.jkt' }}]
+	ikyy.send5ButImg(m.chat, menu,` ` , { url: kajian2pekanan } , btn) }
+
+break
+
+//// Last 
+
+case 'wakafeco':
+{ menu = `*3. Kawasan Wakaf Terpadu Eco Pesantren 3*
+
+📲 *Konfirmasi*
+http://wa.me/6281366317363
+ 
+"Islam sangat serius untuk menjaga kelestarian alam Rahmatan Lil 'Alamin dan mudah-mudahan menjadi ladang amal bagi siapapun yang merindukan membangun Masjid, membangun lembaga Pendidikan. Inilah kesempatan bagi kita untuk beramal." (Aa Gym)
+
+Daarut Tauhiid membuka peluang mendapatkan rumah di surga melalui Program Wakaf Pembebasan Lahan Eco Pesantren DT 3 di Jalan Palutungan, Desa Cisantana, Kecamatan Cigugur, Kabupaten Kuningan.
+
+Eco Pesantren DT 3 masuk dalam Kawasan Wakaf Terpadu Pesantren Daarut Tauhiid Indonesia (PDTI), yakni konsep pengelolaan wakaf secara produktif dan terpadu dalam satu kawasan, tujuannya untuk meningkatkan kemanfaatan aset wakaf bagi kesejahteraan umat. Di antaranya, masjid sebagai pusat dakwah, pendidikan formal, pendidikan non formal, pemberdayaan ekonomi dan lingkungan.
+
+Klik tombol dibawah ini ⬇️
+untuk Program Wakaf lain nya`
+
+		
+		btn = [{   urlButton: { displayText: 'Link Donasi', url: 'https://dtpeduli.org/wakafeco3' } },{  quickReplyButton: { displayText: 'Wakaf Al-Quran Plus', id: 'wakaf' } } ,{ 
+		  quickReplyButton: { displayText: 'Wakaf Terpadu Serua Tangerang', id: 'seruatangerang'  } },{  quickReplyButton: { displayText: 'Wakaf Terpadu Batam', id: 'wakafbatam' },}] 	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+					
+
+	}
+break
+
 		 
   ///// TAMBHAN PENTING
   
