@@ -1424,6 +1424,87 @@ linktr.ee/DiklatSSG
 }
 break
 
+case 'kajianmaghrib':
+
+{ menu =`*C1.2 Kajian Bada Maghrib*
+Kajian Magrib
+
+Masjid DT Bandung
+biolinky.co/masjiddtbandung
+
+No. Kontak
+081910206060
+08112000480
+`
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://instagram.com/masjiddtbandung' } },
+		
+{  quickReplyButton: { displayText: 'back', id: 'kajian' },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: kajianmaghrib } , btn) 
+}
+break
+
+//52.________________________________
+case 'kajianaa':
+{ menu =`*C1.1 Kajian Aa Gym*
+Bismillahirrahmanirrahim, sahabat sekalian.. 
+
+Aa izin menyampaikan bahwa akun-akun Sosial Media Resmi atas nama pribadi Aa sendiri yang dikelola oleh MQ Digital
+Sebagai berikut..
+
+Silahkan difollow yaa.
+
+🌐 Youtube Channel @ Aagym Official
+https://youtube.com/c/AaGymOfficial
+
+🅿 Fanpage Facebook KH. Abdullah Gymnastiar
+https://www.facebook.com/KH.Abdullah.Gymnastiar
+
+🔂 Twitter @ aagym
+https://twitter.com/aagym?t=PlGjNI8_rYm97XeZqxwgNA&s=09
+
+🆕 Telegram @aagym_official
+Klik :  https://t.me/Aagym_official
+
+Informasi kegiatan dan pengembangan dakwah Aa dan Pesantren Daarut Tauhiid silahkan hubungi 
+
+☎ HOTLINE : 0817 300 400
+`
+					
+		kajianaa,
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://instagram.com/aagym' } },
+		
+{  quickReplyButton: { displayText: 'Back', id: 'kajian' },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+}
+break
+
+//53.________________________________
+case 'dtnews':
+{ menu =`Berikut ini merupakan informasi Kajian dan Syiar Dakwah Daarut Tauhiid
+
+🌐 *Situs resmi :*
+http://www.daaruttauhiid.org
+
+🔴 https://youtube.com/DaarutTauhiidOfficial
+`
+		,
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://dtpeduli.org/wakafeco3' } },
+		
+{  quickReplyButton: { displayText: 'C1. Kajian', id: 'kajian' } } ,
+
+{ quickReplyButton: { displayText: 'C2. SSG', id: 'ssg'  } },
+
+{  quickReplyButton: { displayText: 'C3. Media DT', id: 'mqmedia' },}] 
+	
+ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_C_pesantren_gede_tiny } , btn) 
+}
+break
+
 		 
 					
   ///// TAMBHAN PENTING
