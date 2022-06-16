@@ -2063,8 +2063,10 @@ reply(`wa.me/6281803900658`)
 break
 
 //.________________________________
+
 case 'playgroup':
-{ menu =`*A2.1. PG Daarut Tauhiid*
+{ menu =`
+*A2.1. PG Daarut Tauhiid*
 
 *Info Biaya :*
 *_- BPP (Biaya Pengembangan Pendidikan)_*
@@ -2080,15 +2082,14 @@ https://instagram.com/pgtkdaaruttauhiid
 
 *Kontak Person :* 
 0818 0390 0658
-0896 9240 4691
-`
+0896 9240 4691 `
 
 butonid1 = "web_pgtk" 
 butonteks1 =  'Website' 
 butonid2 = "wa_pgtk" 
 butonteks2 =  'Kontak WhatsApp' 
-butonid3 = "back_pgtk" 
-butonteks3 =  'Back' 
+butonid3 = "pendidikan" 
+butonteks3 =  'Back'
 		
 btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pgtkdaaruttauhiid' } },
 		
@@ -2098,9 +2099,11 @@ btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pg
 
 {  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
 	
-ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
-}
+ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) }
+
 break
+
+//.________________________________
 
 case 'infak':
 { menu =`*2. Infak*
