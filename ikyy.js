@@ -328,9 +328,8 @@ title: "  ",
 rows: [
 {title: "1. DKM ", rowId: `dkm`, description: ``},
 {title: "2. Baitul Qur'an", rowId: `baitulquran`, description: ``},
-{title: "3. Pusat Kegiatan Belajar Masyarakat", rowId: `pkbm`, description: ``},
-{title: "4. Pendidikan Diniyah Formal (PDF)", rowId: `diniyahformal`, description: ``}
-] },]
+{title: "3. Pusat Kegiatan Belajar Masyarakat", rowId: `pkbm`, description:``},
+{title: "4. Pendidikan Diniyah Formal (PDF)", rowId: `diniyahformal`, description: ``}] },]
 ikyy.sendListMsg(m.chat, `*A1.* Pesantren DT
 
 Merupakan Layanan *Program Kepesantrenan Daarut Tauhiid* :
@@ -339,67 +338,42 @@ Merupakan Layanan *Program Kepesantrenan Daarut Tauhiid* :
 - Pendidikan Diniyah Formal
 - PMK, DQ, PPM
 - Kesetaraan Paket A, B dan C
-- Kursus Bahasa`, ` `, `${ucapaWaktu}\n`, `Click Here`, seeections, )
-  }
+- Kursus Bahasa`, ` `, `${ucapaWaktu}\n`, `Click Here`, seeections,)}
   break
  
 ////PROGRAM DT PENDIDIKAN
 //.________________________________
 
 case "p2": case "pendidikan":
-  {
-    let seeections = [
 
-{
+  { let seeections = [ {
+
 title: "  ",
-rows: [
-{title: "A2.1 PG Daarut Tauhid", rowId: `b1`, description: ``},
-{title: "A2.2 TK Daarut Tauhid", rowId: `b2`, description: ``},
-{title: "A2.3 SD Daarut Tauhid", rowId: `b3`, description: ``},
-	{title: `A2.4 SMP DT Boarding School Putra`,rowId: `b4`, description: ``},
-	{title: `A2.5 SMP DT Boarding School Putri`,rowId: `b5`,description: ``},
-	{title: `A2.6 SMP DT Boarding School Batam`,rowId: `b6`,description: ``},
-	{title:	`A2.7 SMP Adzkia Islamic School DT`,rowId: `b7`,description: ``},
-	{title: `A2.8 SMA DT Boarding School Putra`,rowId: `b8`,description: ``},
-	{title: `A2.9 SMA DT Boarding School Putri`,rowId: `b9`,description: ``},
-	{title: `A2.10 SMA Adzkia Islamic School DT`,rowId: `b10`,description: ``},
-	{title: `A2.11 SMK DT Boarding School`,rowId: `b11`,description: ``},
-	{title: `A2.12 STAI Daarut Tauhiid`,rowId: `b12`,description: ``},
-] },]
+rows: [ 
+{title: `A2.1 PG Daarut Tauhid`, rowId: `b1`, description: ``},
+{title: `A2.2 TK Daarut Tauhid`, rowId: `b2`, description: ``},
+{title: `A2.3 SD Daarut Tauhid`, rowId: `b3`, description: ``},
+{title: `A2.4 SMP DT Boarding School Putra`,rowId: `b4`, description: ``},
+{title: `A2.5 SMP DT Boarding School Putri`,rowId: `b5`,description: ``},
+{title: `A2.6 SMP DT Boarding School Batam`,rowId: `b6`,description: ``},
+{title: `A2.7 SMP Adzkia Islamic School DT`,rowId: `b7`,description: ``},
+{title: `A2.8 SMA DT Boarding School Putra`,rowId: `b8`,description: ``},
+{title: `A2.9 SMA DT Boarding School Putri`,rowId: `b9`,description: ``},
+{title: `A2.10 SMA Adzkia Islamic School DT`,rowId: `b10`,description: ``},
+{title: `A2.11 SMK DT Boarding School`,rowId: `b11`,description: ``},
+{title: `A2.12 STAI Daarut Tauhiid`,rowId: `b12`,description: ``},] },]
   
 ikyy.sendListMsg(m.chat, `A2. Pendidikan Daarut Tauhiid
 
-Layanan pendidikan mulai dari Playgroup/TK hingga STAI`, ` `,`${ucapaWaktu}\n`,`Click Here`, seeections, )
-  }
+Layanan pendidikan mulai dari Playgroup/TK hingga STAI`, ` `,`${ucapaWaktu}\n`,`Click Here`, seeections,)}
   break
 
-///ISI LIST MESSAGE P1 ( PESANTREN )
 //.________________________________
 
-case "a1":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "a2":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "a3":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-case "a4":
-{
-  reply (`maap ya kak fitur ini masih dalam tahap pengembangan`) }
-
-	break
-//.________________________________
 case "e1":
-{
-	menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
+
+
+{ menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
 
 *PDF DT* merupakan Pendidikan Formal dibawah Kementrian Agama Republik Indonesia, 
 berbasis tradisi Pesantren Salaf dengan kurikulum khas Pesantren Daarut Tauhiid.
@@ -1099,7 +1073,7 @@ Catatan : Setelah selesai satu periode program, peserta dapat melanjutkan ke per
 
 break
 
-//.________________________________'
+//.________________________________
 
 //.________________________________
 case 'stqmukimm':
@@ -1128,6 +1102,7 @@ https://pesantrendt.org/pendaftaran/program/2
 break
 
 //.________________________________
+
 case 'stqmukimt1':
   {
 menu =`*A1.2.1. STQ Mukim Takhassus 1 Tahun*
@@ -1152,13 +1127,15 @@ https://pesantrendt.org/pendaftaran/program/1
 
 break
 
-//2.________________________________
+//.________________________________
+
 case 'pendaftaranstqmukimt1':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/1`)
 break
 
 //.________________________________
+
 case 'stqmukimt3':
   {
 menu =`*A1.2.2. STQ Mukim Takhassus 3 Tahun*
@@ -1185,12 +1162,14 @@ https://pesantrendt.org/pendaftaran/program/49
 break
 
 //.________________________________
+
 case 'pendaftaranstqmukimt3':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/49`)
 break
 
 //.________________________________
+
 case 'beasiswahafizh':
   {
 menu =`*A1.2.5.	STQ Mukim Beasiswa Hafidz Tangguh*
@@ -1217,6 +1196,7 @@ https://bit.ly/Daftar_BeasiswaHafidzTangguh
 break
 
 //.________________________________
+
 case 'pendaftaranbeasiswa':
 reply(`*Link Pendaftaran :*
 https://bit.ly/Daftar_BeasiswaHafidzTangguh`)
@@ -1255,12 +1235,14 @@ https://pesantrendt.org/pendaftaran/program/48
 break
 
 //.________________________________
+
 case 'pendaftaranisi_kesetaraan':
 reply(`*Link Pendaftaran :*
 https://pesantrendt.org/pendaftaran/program/48`)
 break
 
 //.________________________________
+
 case 'kajian':
   {
 menu =`Berikut info kajian Daarut Tauhiid
@@ -1285,6 +1267,7 @@ textkaj3 = 'C1.3 Kajian Dua Pekanan'
 break
 
 //.________________________________
+
 case 'kajian2pekanan':
   {
 
@@ -1300,7 +1283,7 @@ No. Kontak
 
 break
 
-//// Last 
+//.________________________________
 
 case 'wakafeco':
 { menu = `*3. Kawasan Wakaf Terpadu Eco Pesantren 3*
@@ -1331,7 +1314,7 @@ untuk Program Wakaf lain nya`
 
 	}
 	
-	///
+//.________________________________
 	
 	case 'ssg':
 { menu =`*C2. SSG*
@@ -1352,6 +1335,8 @@ linktr.ee/DiklatSSG
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
 }
 break
+
+//.________________________________
 
 case 'kajianmaghrib':
 
@@ -1375,6 +1360,7 @@ No. Kontak
 break
 
 //.________________________________
+
 case 'kajianaa':
 { menu =`*C1.1 Kajian Aa Gym*
 Bismillahirrahmanirrahim, sahabat sekalian.. 
@@ -1401,17 +1387,17 @@ Informasi kegiatan dan pengembangan dakwah Aa dan Pesantren Daarut Tauhiid silah
 ☎ HOTLINE : 0817 300 400
 `
 					
-		kajianaa,
 		
 	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://instagram.com/aagym' } },
 		
 {  quickReplyButton: { displayText: 'Back', id: 'kajian' },}] 
 	
-		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: kajianaa } , btn) 
 }
 break
 
 //.________________________________
+
 case 'dtnews':
 { menu =`Berikut ini merupakan informasi Kajian dan Syiar Dakwah Daarut Tauhiid
 
@@ -1434,6 +1420,47 @@ ikyy.send5ButImg(m.chat, menu,` ` , { url: loc_C_pesantren_gede_tiny } , btn)
 }
 break
 
+//.________________________________
+
+case 'seruatangerang':
+{ menu =`*3. Kawasan Wakaf Terpadu Serua Tangerang*
+
+📌 *Klik Donasi*
+https://dtpeduli.org/wakafserua
+
+📲 *Konfirmasi*
+http://wa.me/6281366317363
+ 
+Kawasan Wakaf Terpadu Serua Tangerang berlokasi di Jl. Sukamulya V Serua Indah, Ciputat Tangerang Selatan. Kawasan ini merupakan kawasan pendidikan formal Azkia Islamic School berbasis boarding yang diperuntukkan khusus bagi siswa pra sejahtera dengan beasiswa full di bawah program DT Peduli.
+
+Para siswa beasiswa berasal dari seluruh Indonesia (Cabang DT Peduli). Sekolah Formal yang ada di Serua adalah SMP dan SMA Putra & Putri.
+
+Wakaf Pembangunan Kawasan Wakaf Terpadu ini menjadi peluang untuk memperoleh pahala mengalir abadi dan menambah nilai kebaikan, serta menyiapkan generasi para pemimpin di masa depan. Pahala dari setiap Ilmu keislaman, terutama setiap huruf al-Quran yang dipelajari, dihafal, dan diajarkan kembali kepada anak-anak mereka akan terus mengalir.
+
+Klik tombol dibawah ini ⬇️
+untuk Program Wakaf lain nya`
+
+butonid1 = "wakaf"  
+butonteks1 =  'Wakaf Al-Quran Plus' 
+butonid2 = "wakafbatam"  
+butonteks2=  "Wakaf Terpadu Batam"
+butonid3 = "wakafeco"  
+butonteks1 =  'Wakaf Terpadu Eco Pesantren 3' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 } ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: seruatangerang } , btn) 
+}
+break
+
+//.________________________________
+
 		 case 'mqpub':
 { menu =`*C3.3 MQ Publishing*
 MQS Publishing 
@@ -1447,19 +1474,18 @@ Penerbit Resmi Buku Aa Gym
 linktr.ee/mqspublishing
 `
 
-
 butonid1 = "mqmedia"
-					butonteks1 =  '⬡ Back' 
+butonteks1 =  '⬡ Back' 
 				 
-					
-		
-	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/mqspublishing' } },
+btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/mqspublishing' } },
 		
 {  quickReplyButton: { displayText: butonteks1, id: butonid1 } ,}] 
 	
-		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqpub } , btn) 
+ikyy.send5ButImg(m.chat, menu,` ` , { url: mqpub } , btn) 
 }
 break
+
+//.________________________________
 
 case 'mqfm':
 { menu =`*C3.2 MQFM*
@@ -1486,7 +1512,9 @@ Youtube : MQFM Bandung`
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: mqfm } , btn) 
 }
 break
+
 //.________________________________
+
 case 'mqtv':
 { menu =`*C3.1 MQTV*
 MQTV atau Manajemen Qolbu Television merupakan perusahaan yang bergerak dalam media informasi serta salah satu alternatif tontonan dakwah layar kaca.
@@ -1517,7 +1545,7 @@ butonteks1 =  '⬡ Back'
 }
 break
 					
-  ///// TAMBHAN PENTING
+  //.________________________________
   
   case 'tourl': {
 	
@@ -1536,6 +1564,8 @@ await fs.unlinkSync(media)
 	
 	break
 
+//.________________________________
+
 case 'web_smk':
 reply(`Dapatkan info lengkap SMK DT:
 https://smkdtbs.sch.id/
@@ -1544,12 +1574,14 @@ https://smkdtbs.sch.id/
 http://ppdb.daaruttauhiid.sch.id/`)
 break
 
+//.________________________________
+
 case 'wa_smk':
 reply(`wa.me/62895413775658`)
 break
 
-
 //.________________________________
+
 case 'sma_putri':
 { menu =`*A2.9. SMA DT Boarding School Putri*
 
@@ -1585,6 +1617,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_sma_putri':
 reply(`Dapatkan info lengkap SMA DT Putri:
 https://smapi.daaruttauhiid.sch.id/  
@@ -1598,6 +1632,7 @@ reply(`wa.me/6281299312010`)
 break
 
 //.________________________________
+
 case 'sma_putra':
 { menu =`*A2.8. SMA DT Boarding School Putra*
 
@@ -1636,6 +1671,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_sma_putra':
 reply(`Dapatkan info lengkap SMA DT Putra:
 https://smapa.daaruttauhiid.sch.id/  
@@ -1644,11 +1681,15 @@ https://smapa.daaruttauhiid.sch.id/
 http://ppdb.daaruttauhiid.sch.id/`)
 break
 
+//.________________________________
+
 case 'wa_sma_putra':
 reply(`wa.me/6282230002910`)
 break
 
 //.________________________________
+
+
 case 'sma_adzkia':
 { menu =`*A2.10. SMA Adzkia Islamic School DT*
 
@@ -1682,6 +1723,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_sma_adzkia':
 reply(`Dapatkan info lengkap SMA DT Adzkia:
 http://smaadzkiadt.sch.id/
@@ -1695,6 +1738,7 @@ sendKontak(`wa.me/628111840415`)
 break
 
 //.________________________________
+
 case 'smp_adzkia':
 { menu =`*A2.7. SMP Adzkia Islamic School DT*
 
@@ -1727,6 +1771,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_smp_adzkia':
 reply(`Dapatkan info lengkap SMP DT Adzkia:
 https://smp.adzkia.sch.id/
@@ -1740,6 +1786,7 @@ reply(`wa.me/6285810995233`)
 break
 
 //.________________________________
+
 case 'smp_batam':
 { menu =`*A2.6. SMP DT Boarding School Batam*
 
@@ -1777,6 +1824,8 @@ butonteks3 =  'Back'
 		ikyy.send5ButImg(m.chat, menu,` ` , { url: smp_batam } , btn) 
 }
 break
+
+//.________________________________
 
 case 'web_smp_batam':
 reply(`Dapatkan info lengkap SMP DT Batam:
@@ -1827,6 +1876,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_smp_putri':
 reply(`Dapatkan info lengkap SMP DT Putri:
 http://www.smpdtbs.sch.id/
@@ -1835,11 +1886,14 @@ http://www.smpdtbs.sch.id/
 http://ppdb.daaruttauhiid.sch.id/`)
 break
 
+//.________________________________
+
 case 'wa_smp_putri':
 reply (`wa.me/628112243019`)
 break
 
 //.________________________________
+
 case 'smp_putra':
 { menu =`*A2.4. SMP Daarut Tauhiid Boarding School Putra*
 
@@ -1879,6 +1933,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_smp_putra':
 reply(`Dapatkan info lengkap SMP DT Putra:
 http://www.smpdtbs.sch.id/`)
@@ -1887,11 +1943,14 @@ http://www.smpdtbs.sch.id/`)
 (`http://ppdb.daaruttauhiid.sch.id/`)
 break
 
+//.________________________________
+
 case 'wa_smp_putra':
 reply (`wa.me/6281322060890`)
 break
 
 //.________________________________
+
 case 'sekolahdasar':
 { menu =`*A2.3. SD Daarut Tauhiid*
 
@@ -1931,6 +1990,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_sd':
 reply(`Dapatkan info lengkap SD Daarut Tauhiid:
 https://sd.daaruttauhiid.sch.id/`)
@@ -1944,6 +2005,7 @@ reply(`wa.me/628112343809`)
 break
 
 //.________________________________
+
 case 'tamankanak-kanak':
 { menu =`*A2.2. TK Daarut Tauhiid*
 
@@ -1982,10 +2044,14 @@ ikyy.send5ButImg(m.chat, menu,` ` , { url: tk_aja } , btn)
 }
 break
 
+//.________________________________
+
 case 'web_pgtk':
 reply(`Jangan Lupa cek web Kami ya:
 https://pg-tk.daaruttauhiid.sch.id/`)
 break
+
+//.________________________________
 
 case 'wa_pgtk':
 reply(`wa.me/6281803900658`)
@@ -2058,10 +2124,14 @@ butonteks2 =  'Kontak'
 }
 break
 
+//.________________________________
+
 case 'info_infak':
 reply(`Info:
 https://dtpeduli.org/donasi/pay?t=INFAK`)
 break
+
+//.________________________________
 
 case 'kontak_infak':
 reply(`Kontak:
@@ -2069,6 +2139,7 @@ wa.me/6281366317363`)
 break
 
 //.________________________________
+
 case 'zakat':
 { menu =`*1. Zakat*
 Zakat merupakan salah satu rukun Islam. Zakat diwajibkan atas setiap orang Islam yang telah memenuhi syarat
@@ -2094,10 +2165,14 @@ butonteks2 =  'Kontak'
 }
 break
 
+//.________________________________
+
 case 'info_zakat':
 reply(`Info:
 https://dtpeduli.org/zakat`)
 break
+
+//.________________________________
 
 case 'kontak_zakat':
 reply(`Kontak:
@@ -2106,7 +2181,6 @@ break
 
 //.________________________________
 
-//.________________________________
 case 'stai':
 { menu =`*A2.12. STAI Daarut Tauhiid*
 
@@ -2141,6 +2215,8 @@ butonteks3 =  'Back'
 }
 break
 
+//.________________________________
+
 case 'web_stai':
 reply(`Dapatkan info lengkap STAI DT:
 https://staidaaruttauhiid.ac.id/
@@ -2149,9 +2225,13 @@ https://staidaaruttauhiid.ac.id/
 http://ppdb.daaruttauhiid.sch.id/`)
 break
 
+//.________________________________
+
 case 'wa_stai':
 reply(`wa.me/6281224904118`)
 break
+
+//.________________________________
 
 case 'smk':
 { menu =`*A2.11. SMK Daarut Tauhiid Boarding School*
@@ -2189,6 +2269,7 @@ butonteks3 =  'Back'
 break
 
 //.________________________________
+
 case 'seruatangerang':
 { menu =`*3. Kawasan Wakaf Terpadu Serua Tangerang*
 
@@ -2226,7 +2307,124 @@ butonteks1 =  'Wakaf Terpadu Eco Pesantren 3'
 }
 break
 
+//.________________________________
 
+case 'fidyah':
+{ menu =`*4. Fidyah*
+
+*Info :*
+https://dtpeduli.org/donasi/pay?t=FIDYAH 
+
+*Kontak Konfirmasi*
+0813 6631 7363`
+butonid1 = "info_fidyah"  
+butonteks1 =  'Info' 
+butonid2 = "kontak_fidyahkontak_fidyah"  
+butonteks2 =  'Kontak' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: fidyah } , btn) 
+}
+break
+
+//.________________________________
+
+case 'info_fidyah':
+reply(`Info:
+https://dtpeduli.org/donasi/pay?t=FIDYAH `)
+break
+
+//.________________________________
+
+case 'kontak_fidyah':
+reply(`Kontak:
+wa.me/6281366317363`)
+break
+
+//.________________________________
+
+case butonid1:
+{ menu =`*3. Wakaf Al-Quran Plus,*
+*Raih Pahala Mengalir Abadi*
+
+📌 *Klik Donasi*
+https://dtpeduli.org/wakafquranplus
+
+📲 *Konfirmasi*
+http://wa.me/6281366317363
+ 
+Sebanyak 20.000 Wakaf Al-Quran Plus tahap sebelumnya sudah disalurkan, ke 260 tempat yang membutuhkan, baik itu masjid, pesantren tahfiz dan madrasah. Adapun berbagai wilayah meliputi Bandung, Bogor, Jakarta, Bekasi, Lampung, Sumatera Selatan, Yogyakarta, Lombok, Tasikmalaya bahkan Australia, sudah merasakan manfaat dari hadirny program Wakaf Al-Quran Plus.  Wakaf Al-Quran Plus dirancang khusus untuk memenuhi kebutuhan masyarakat, seperti belajar membaca Al-Quran, memahami dan mengamalkannya.
+
+Karena dilengkapi dengan terjemah, tafsir ayat pilihan, doa pilihan dan kolom hikmah khusus dari KH. Abdullah Gymnastiar. Sehingga, perwakilan penerima Wakaf Al-Quran (Mauquf ‘Alaih) akan diberikan pelatihan membaca Al-Quran dari Daarut Tauhiid.  Wakaf Al-Quran Plus menjadi solusi, dari tingginya tingkat pengajuan dan kebutuhan Al Qur'an di beberapa wilayah.
+
+Klik tombol dibawah ini ⬇️
+untuk Program Wakaf lain nya`
+butonid1 = "seruatangerangseruatangerang"  
+butonteks1 =  'Wakaf Terpadu Serua Tangerang' 
+butonid2 = "wakafbatamwakafbatam"  
+butonteks2 =  "wakafbatam" 
+					
+butonid3 =  "wakafecowakafeco"  
+butonteks3 =  'Wakaf Terpadu Eco Pesantren 3' 
+
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakaf } , btn) 
+}
+break
+
+//.________________________________
+
+case 'wakafbatam':
+{ menu =`*3. Kawasan Wakaf Terpadu Batam*
+
+📌 *Klik Donasi*
+https://dtpeduli.org/wakafbatam
+
+📲 *Konfirmasi*
+http://wa.me/6281366317363
+ 
+Daarut Tauhiid menggulirkan konsep Kawasan Wakaf Terpadu, yakni konsep pengelolaan wakaf secara produktif dan terpadu dalam satu kawasan. Tujuannya untuk meningkatkan kemanfaatan lebih dari aset-aset wakaf bagi kesejahteraan umat sehingga para muwakif atau donatur yg berkontribusi mendapat keberlimpahan pahala dari manfaat sarana yang ada di kawasan terpadu.
+
+Kawasana Wakaf Terpadu Batam adalah kawasan yang di rencanankan sebagai kawasan pesantren DT yang berlokasi di Jalan Trans Berelang Batam. Akan di bandung Masjid, sekolah formal boarding SMP dan SMA Putra /Putri, Baitul Quran dan sebagai kawaasan transit antara Kota Batam dan wilayah wisata Barelang. Di kawasan ini juga dikembangkan perekonomian dengan konsep wisata pesantren. Luas kawasan 1,38 ha.
+
+Klik tombol dibawah ini ⬇️
+untuk Program Wakaf lain nya`
+butonid1 = "wakafwakaf"  
+butonteks1 =  'Wakaf Al-Quran Plus' 
+butonid2 = "seruatangerangseruatangerang"  
+butonteks2 =  'Wakaf Terpadu Serua Tangerang' 
+butonid3 = "wakafecowakafeco"  
+butonteks3 =  'Wakaf Terpadu Eco Pesantren 3' 
+	
+	
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 } } ,
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafbatam } , btn) 
+}
+break
+
+
+
+//.________________________________
 
 
 
