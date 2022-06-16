@@ -2083,14 +2083,14 @@ https://instagram.com/pgtkdaaruttauhiid
 0896 9240 4691
 `
 
-butonid1 = "web_pgtkweb_pgtk" 
+butonid1 = "web_pgtk" 
 butonteks1 =  'Website' 
-butonid2 = "wa_pgtkwa_pgtk" 
+butonid2 = "wa_pgtk" 
 butonteks2 =  'Kontak WhatsApp' 
-butonid3 = "back_pgtkback_pgtk" 
+butonid3 = "back_pgtk" 
 butonteks3 =  'Back' 
 		
-	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pgtkdaaruttauhiid' } },
+btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/pgtkdaaruttauhiid' } },
 		
 {  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
 
@@ -2098,9 +2098,165 @@ butonteks3 =  'Back'
 
 {  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
 	
-		ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
+ikyy.send5ButImg(m.chat, menu,` ` , { url: wakafeco } , btn) 
 }
 break
+
+case 'infak':
+{ menu =`*2. Infak*
+
+*Info :*
+https://dtpeduli.org/donasi/pay?t=INFAK
+
+*Kontak Konfirmasi*
+0813 6631 7363`
+butonid1 = "info_infak"  
+butonteks1 =  'Info' 
+butonid2 = "kontak_infak"  
+butonteks2 =  'Kontak' 
+					
+		
+	btn = [{   urlButton: { displayText: 'link info', url: 'https://dtpeduli.org/donasi/pay?t=INFAK' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: infak } , btn) 
+}
+break
+
+case 'info_infak':
+reply(`Info:
+https://dtpeduli.org/donasi/pay?t=INFAK`)
+break
+
+case 'kontak_infak':
+reply(`Kontak:
+wa.me/6281366317363`)
+break
+
+//.________________________________
+case 'zakat':
+{ menu =`*1. Zakat*
+Zakat merupakan salah satu rukun Islam. Zakat diwajibkan atas setiap orang Islam yang telah memenuhi syarat
+
+*Info :*
+https://dtpeduli.org/zakat
+
+*Kontak Konfirmasi*
+0813 6631 7363`
+
+butonid1 = "info_zakat"  
+butonteks1 =  'Info' 
+butonid2 = "kontak_zakat"  
+butonteks2 =  'Kontak' 
+					
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: zakat } , btn) 
+}
+break
+
+case 'info_zakat':
+reply(`Info:
+https://dtpeduli.org/zakat`)
+break
+
+case 'kontak_zakat':
+reply(`Kontak:
+wa.me/6281366317363`)
+break
+
+//.________________________________
+
+//.________________________________
+case 'stai':
+{ menu =`*A2.12. STAI Daarut Tauhiid*
+
+*Info Biaya :*
+  biaya pendidikan awal = 6.700.000
+  spp/semester = 1.800.000
+  SKS = 25.000/sks
+  UAS : 35.000/Mata kuliah
+  UTS : 35.000/Mata kuliah
+
+*Instagram*
+https://instagram.com/staidaaruttauhiid/
+
+*Kontak Person :*
+0812 2490 4118`
+butonid1 = "web_staiweb_stai"  
+butonteks1 =  'Website' 
+butonid2 = "wa_staiwa_stai"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid3 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/staidaaruttauhiid/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: stailogo } , btn) 
+}
+break
+
+case 'web_stai':
+reply(`Dapatkan info lengkap STAI DT:
+https://staidaaruttauhiid.ac.id/
+
+*PPDB*
+http://ppdb.daaruttauhiid.sch.id/`)
+break
+
+case 'wa_stai':
+reply(`wa.me/6281224904118`)
+break
+
+case 'smk':
+{ menu =`*A2.11. SMK Daarut Tauhiid Boarding School*
+
+*Info Biaya :*
+Akuntansi : - BPP (Biaya Pengembangan Pendidikan) 
+			= Rp. 32.750.000
+			
+			- BPB (Biaya Pendidikan Bulanan)
+			= Rp. 3.500.000
+
+*Instagram*
+https://instagram.com/smkdaaruttauhiid/
+
+*Kontak Person :*
+0812 9931 2010`
+
+butonid1 = "web_smkweb_smk"  
+butonteks1 =  'Website' 
+butonid2 = "wa_smkwa_smk"  
+butonteks2 =  'Kontak WhatsApp' 
+butonid2 = "pendidikanpendidikan"  
+butonteks3 =  'Back' 
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/smkdaaruttauhiid/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 } } ,
+
+{  quickReplyButton: { displayText: butonteks2, id: butonid2 }},
+
+{  quickReplyButton: { displayText: butonteks3, id: butonid3 },}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: smk } , btn) 
+}
+break
+
+
 
 
 
