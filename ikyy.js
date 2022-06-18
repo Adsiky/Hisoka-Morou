@@ -65,7 +65,7 @@ let smp_adzkia = "isi url"
 let smp_batam = "isi url"
 let smp_putri = "isi url"
 let smp_putra = "isi url"
-let sd_aja = "isi url"g')
+let sd_aja = "isi url"
 let tk_aja = "isi url"
 let pgtk = "isi url"
 
@@ -136,12 +136,7 @@ ikyy.sendReadReceipt(m.chat, m.sender, [m.key.id])
 console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
 }
 	
-	// reset limit every 12 hours
-let cron = require('node-cron')
-
 	
-	 
- // Mute Chat
  
 const reply = (teks) => {
 
