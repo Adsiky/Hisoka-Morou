@@ -44,6 +44,16 @@ let paudsejenis = "https://telegra.ph/file/3c32cb3f4ed297715a21f.jpg"
 
 /////// BLOM DI ISI HEHE
 
+// 35-50
+let tahfidzulquran = "isi url"
+let stqweekend = "isi url"
+let stqmukimm = "isi url"
+let stqmukimt = "isi url"
+let beasiswahafizh = "isi url"
+let STQkesetaraanJPG = "isi url"
+let kajian2pekanan = "isi url"
+
+// 50-80
 let ssg = "isi url"
 let mqpub = "isi url"
 let mqfm = "isi url"
@@ -89,6 +99,8 @@ const mime = (quoted.msg || quoted).mimetype || ''
 const isMedia = /image|video|sticker|audio/.test(mime)
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 
+*//* Ucapan Waktu
+
  if(time2 < "23:59:00"){
 
 var ucapaWaktu = 'اسلام عليكم ورحمة الله وبركاته'
@@ -108,6 +120,7 @@ var ucapaWaktu = 'اسلام عليكم ورحمة الله وبركاته'
  if(time2 < "05:00:00"){
 var ucapaWaktu = 'اسلام عليكم ورحمة الله وبركاته'
  }
+ 
 // Public & Self
 if (!ikyy.public) {
 if (!m.key.fromMe) return
