@@ -2,10 +2,9 @@
 ///// WhatsApp : 085215319934
 
 /////////////////////////////
-/////////////////////////////
 
+*//* KONSTAN MODULE
 
-////// KONSTAN MODULE
 let { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let util = require('util')
