@@ -43,7 +43,31 @@ let ppm_i = "https://telegra.ph/file/078cc794f9c6f1c30d0ea.jpg"
 let keseteraan = "https://telegra.ph/file/c4fd343ee7d5c0243e609.jpg "
 let paudsejenis = "https://telegra.ph/file/3c32cb3f4ed297715a21f.jpg"
 
+/////// BLOM DI ISI HEHE
 
+let ssg = "isi url"
+let mqpub = "isi url"
+let mqfm = "isi url"
+let mqtv = "isi url"
+let fidyah = "isi url"
+let wakaf = "isi url"
+let wakafeco = "isi url"
+let wakafbatam = "isi url"
+let seruatangerang = "isi url"
+let infak = "isi url"
+let zakat = "isi url"
+let stailogo = "isi url"
+let smk = "isi url"
+let sma_putri = "isi url"
+let sma_putra = "isi url"
+let sma_adzkia = "isi url"
+let smp_adzkia = "isi url"
+let smp_batam = "isi url"
+let smp_putri = "isi url"
+let smp_putra = "isi url"
+let sd_aja = "isi url"g')
+let tk_aja = "isi url"
+let pgtk = "isi url"
 
 
 module.exports = ikyy = async (ikyy, m, chatUpdate, store) => {
@@ -153,8 +177,6 @@ ikyy.ev.emit('messages.upsert', msg)
 	switch(command) {
 
 
-////// MENU HELP BUTTON 1 PAKET
-
 //.________________________________
 
 case "help": case "menu":
@@ -179,7 +201,7 @@ url: 'https://linktr.ee/InfoDT'
 }
 },  {
 
- quickReplyButton: {
+quickReplyButton: {
 
 displayText: 'Pendidikan Diniyah Formal (PDF)',
 id: 'programdt'
@@ -189,7 +211,7 @@ id: 'programdt'
 displayText: 'Baitul Qur’an',
 id: 'baitulquran'
  }
-  }
+ }
  ,
 {
  quickReplyButton: {
@@ -274,14 +296,14 @@ id: 'e1'
   }, {
  quickReplyButton: {
 displayText: 'Baitul Qur’an',
-id: 'e2'
+id: 'baitulquran'
  }
   }
  ,
 {
  quickReplyButton: {
 displayText: 'DKM Masjid Daarut Tauhiid',
-id: 'e3'
+id: 'dkm'
  }
   }]
 ikyy.send5ButImg(m.chat, captp2,` ` , { url: pesantren_gede } , btn)
@@ -317,8 +339,180 @@ Merupakan Layanan Program Lembaga Strategis DT
 - Usaha Produktif`,  ` `, `${ucapaWaktu}\n`, `Click Here`, seeections, )
   }
   
-  //.________________________________
+  //.________________________________
+  
+  case 'dteo':
+{
+menu =`*A3.4. Daarut Tauhiid Event Organizer*
+Lembaga training offline dan online
+
+Website: www.linktr.ee/dteo
+Instagram: www.instagram.com/dteventorganizer
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'lemstra'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: dteo } , btn) 
+}
+break
 
+//.________________________________
+
+case 'airfresh':
+{
+menu =`*A3.6.5 Air Fresh*
+Kontak WA: 089648386315
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'usahaproduktif'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: tokoonline } , btn) 
+}
+		
+		
+break
+
+
+//.________________________________
+
+case 'ecofish':
+{
+menu =`*A3.6.4 Eco Fish*
+Kontak WA: 081313002181
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'usahaproduktif'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: tokoonline } , btn) 
+}
+							
+		
+break
+
+//.________________________________
+
+case 'agrobisnis':
+{
+menu =`*A3.6.3 Agro Bisnis*
+Kontak WA: 081320946486
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'usahaproduktif'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: eco_pesantren } , btn) 
+}
+				
+		
+break
+
+//.________________________________
+
+case 'material':
+{
+menu =`*A3.6.2 Material*
+Kontak WA: 089648386315
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'usahaproduktif'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: material } , btn) 
+}
+			
+		
+break
+
+//.________________________________
+
+case 'warungdt':
+{
+menu =`*A3.5. Warung DT*
+
+Menyediakan aneka herbal, madu, dan kurma. 
+Whatsapp: 089650000001
+
+https://linktr.ee/Produkwarungdt
+`
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'usahaproduktif'
+		
+	btn = [{   urlButton: { displayText: 'Link', url: 'https://linktr.ee/Produkwarungdt/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: warungdt } , btn) 
+}
+		
+break
+
+//.________________________________
+
+case 'wisatahikmah':
+{
+menu =`*A3.3. Wisata Hikmah*
+Ayo explore keindahan Indonesia bersama Wisata Hikmah
+
+📌 Belitung:
+➡️ 4-6 Februari 2022
+➡️ 4-6 Maret 2022
+
+📌 Lombok
+➡️ 26-28 Februari 2022
+➡️ 26-28 Maret 2022
+
+Kenapa wisata domestik?
+✅ Tidak perlu karantina
+✅ View alam yang indah 
+✅ Snorkling di laut yang bersih 
+✅ Makanan halal yang lezat
+
+Silahkan dipilih!😉
+
+Ngobrol yuk dengan Travel Consultant kami:
+
+📲 0852-8910-2222 / http://bit.ly/WisataHikmah
+📲 0812-1812-3311 / http://bit.ly/WisataHikmah-2
+
+Mari kenal lebih dekat dengan kami:
+https://bit.ly/IntagramWH
+wisatahikmah.id
+
+🌟 Dapatkan info terkini Wisata Hikmah di http://bit.ly/GrupWisataHikmah`
+
+butonteks1 =  '⬡ Back' 
+ butonid1 = 'lemstra'
+		
+	btn = [{   urlButton: { displayText: 'Instagram', url: 'https://Instagram.com/' } },
+		
+{  quickReplyButton: { displayText: butonteks1, id: butonid1 }  ,}] 
+	
+		ikyy.send5ButImg(m.chat, menu,` ` , { url: wisatahikmah } , btn) 
+}
+					
+		
+break
+
+  //.________________________________
+ 
 case "p1": case "pesantren":
   {
     let seeections = [
@@ -371,7 +565,7 @@ Layanan pendidikan mulai dari Playgroup/TK hingga STAI`, ` `,`${ucapaWaktu}\n`,`
 //.________________________________
 
 case "e1":
-
+case "dinyahformal":
 
 { menu =`*A1.4. Pendidikan Diniyah Formal (PDF)*
 
@@ -427,11 +621,9 @@ btn = [{
  
  urlButton: {
 displayText: 'Link Pendaftaran',
-url: 'https://pesantrendt.org/pendaftaran/program/'
-
-}, }]
+url: 'https://pesantrendt.org/pendaftaran/program/' }, }]
   
-  ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)
+ikyy.send5ButImg(m.chat, menu,` ` , { url: pesantren_gede } , btn)
 	
 break
 
